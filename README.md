@@ -7,15 +7,15 @@ our threat taxonomy, allowing other researchers to contribute and modify it.
 
 The taxonomy is a collaboration between Abertay University, The University of Strathclyde, The Naval Academy Research Institute and Middlesex University (Mauritius Campus)
 
-##Taxonomy Structure
+## Taxonomy Structure
 The taxonomy classifies each network threat according to:
 - Its Source (i.e.  Networking,  Host, Software,  Hardware,  Human)
 - OSI Layer
 - Active / Passive
  
-##Prerequisites for a push request
+## Prerequisites for a push request
 Ensure that the latex source compiles correctly 
  
-##Contributors
+## Contributors
 Hanan Hindy
 Xavier Bellekens
