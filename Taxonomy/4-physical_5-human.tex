@@ -1,0 +1,35 @@
+\begin{tikzpicture}
+	
+    \input{0.1-header}
+    \input{0.2-vertical-lines}
+
+%%%%%%%%%%%%%%%%%%%%% Nodes %%%%%%%%%%%%%%%%%%%%%
+	\node [sectionblock, below right =\smallY and -\headerNodeDistance of None] (S4) {4. Physical};
+	
+    \node [block, below = \largeY of H] (4_1) {4.1 Backdoor};
+    \node [block, below = \medY of 4_1] (4_2) {4.2 Mis-\\configuration};
+    
+    \node [sectionblock, below left =\medY and -\headerNodeDistance of 4_2] (S5) {5. Human};
+
+    \node [block, below =\largeY*4 of A] (5_1) {5.1 Masquerade};
+    
+	\node [block, below =\medY of 5_1] (5_2) {5.2 Phishing};
+	\node [block, below right =\smallY and \shiftX of 5_2] (5_2_1) {5.2.1 Spear\\Phishing};
+	
+    \node [block, below left =\medY and \shiftX of 5_2_1] (5_3) {5.3 U2R};
+	
+    \node [block, below =\medY of 5_3] (5_4) {5.4 R2L};
+	
+	\node [block, below =\medY of 5_4] (5_5) {5.5 Repudiation};
+   
+	\node [block, below =\largeY*8 of S] (5_6) {5.6 Session Hijacking};
+	
+    \node [block, below =\largeY*9 of H] (5_7) {5.7 Physical Damage};
+
+	\node [block, below =\largeY of 5_5] (5_8) {5.8 Fraud};
+
+%%%%%%%%%%%%%%%%%%%%% Links %%%%%%%%%%%%%%%%%%%%%
+	\draw[->] ($(5_2.south)-(\southXDisplacement, 0)$) |- (5_2_1.west);
+
+
+\end{tikzpicture}

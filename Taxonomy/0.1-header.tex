@@ -1,0 +1,8 @@
+\node [headerblock] (None) {OSI Layer};
+\node [headerblock, right =\headerNodeDistance of None] (A) {Application};
+\node [headerblock, right =\headerNodeDistance of A] (P) {Presentation};
+\node [headerblock, right =\headerNodeDistance  of P] (S) {Session};
+\node [headerblock, right =\headerNodeDistance  of S] (T) {Transport};
+\node [headerblock, right =\headerNodeDistance  of T] (N) {Network};
+\node [headerblock, right =\headerNodeDistance  of N] (D) {Data Link};
+\node [headerblock, right =\headerNodeDistance  of D] (H) {Physical};

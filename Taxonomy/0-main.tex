@@ -1,0 +1,36 @@
+\documentclass[a3paper,landscape]{article}
+\usepackage[margin=0.7in]{geometry}
+
+\usepackage{tikz}
+\usetikzlibrary{arrows,positioning,shapes.geometric,calc, shapes, shapes.gates.logic.US}
+\title{Network Threats Taxonomy}
+
+%%%%%%%%%%%%%%%%%%%%% Variables %%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%% Displacements %%%%%%%%%%%
+\def \southXDisplacement {1}
+\def \southBorderXDisplacement {1.3}
+
+%%%%%%%%%%% Distances %%%%%%%%%%%
+\def \headerNodeDistance {2.5cm}
+\def \halfHeaderNodeDistance {\headerNodeDistance / 2}
+\def \largeY {1.2cm}
+\def \medY {0.5cm}
+\def \smallY {0.2cm}
+\def \shiftX {-2cm}
+
+\tikzset{
+ 	headerblock/.style= {draw=none, rectangle, align=center,minimum width=2.5cm,minimum height=0.75cm, fill=gray!30, font=\bf}, 
+ 	block/.style= {draw, rectangle, align=center,minimum width=2.4cm,minimum height=0.5cm, font=\bfseries}, 
+ 	roundedblock/.style= {draw, ellipse, align=center, font=\bfseries, inner sep=0.06cm}, 
+ 	semiroundedblock/.style= {draw, rounded rectangle, rounded rectangle west arc=0pt, align=center, font=\bfseries, minimum width=2.4cm, minimum height=0.75cm}, 
+	sectionblock/.style= {draw, rectangle, rounded corners=1em, align=center,minimum width=38cm,minimum height=0.75cm, fill=gray!15, font=\bf}
+ }
+ 
+ 
+\begin{document}
+
+\include{1-networking}
+\include{2-host_3-software}
+\include{4-physical_5-human}
+
+\end{document}
