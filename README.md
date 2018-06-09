@@ -17,5 +17,5 @@ The taxonomy classifies each network threat according to:
 Ensure that the latex source compiles correctly 
  
 ## Contributors
-Hanan Hindy
-Xavier Bellekens
+- Hanan Hindy
+- Dr Xavier Bellekens
