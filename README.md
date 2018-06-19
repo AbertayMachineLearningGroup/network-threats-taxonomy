@@ -41,9 +41,9 @@ If you want to cite the paper please use the following format;
 
 ## Samples from taxonomy
 - Threats 
-![Taxonomy_1](images\Taxonomy_1.PNG)
-![Taxonomy_2](images\Taxonomy_2.PNG)
-![Taxonomy_3](images\Taxonomy_3.PNG)
+![Taxonomy_1](\images\Taxonomy_1.PNG)
+![Taxonomy_2](\images\Taxonomy_2.PNG)
+![Taxonomy_3](\images\Taxonomy_3.PNG)
 
 - Tools
-![Tools](images\Tools.PNG)
+![Tools](\images\Tools.PNG)
