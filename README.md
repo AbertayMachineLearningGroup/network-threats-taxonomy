@@ -1,4 +1,4 @@
-# Network Threats Taxonomy
+# Network Threats And Tools Taxonomy
 
 Machine Learning based Intrusion Detection Systems are difficult to evaluate due to a shortage of datasets representing accurately network traffic and their associated threats. In this project we attempt at solving this problem
 by presenting two taxonomies "A Taxonomy and Survey of Intrusion Detection System Design Techniques, Network Threats and Datasets” and “A Taxonomy of Malicious Traffic for Intrusion Detection Systems”, classifying threats
@@ -38,3 +38,12 @@ If you want to cite the paper please use the following format;
 ## Contributors
 - Hanan Hindy
 - Dr Xavier Bellekens
+
+## Samples from taxonomy
+- Threats 
+![Taxonomy_1](images\Taxonomy_1.PNG)
+![Taxonomy_2](images\Taxonomy_2.PNG)
+![Taxonomy_3](images\Taxonomy_3.PNG)
+
+- Tools
+![Tools](images\Tools.PNG)
