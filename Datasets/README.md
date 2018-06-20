@@ -2,11 +2,11 @@
 Machine Learning Intrusion Detection System rely heavily on datasets. This README provides a list of datasets
 and associated links
 
-##Contributions
+## Contributions
 Feel free to contribute, add, modify the links and/or add section, or send us an email if a link is deprecated.
 
 
-##Mobile Application
+## Mobile Application
 * [Android Malwre Genome](http://www.malgenomeproject.org/)
 * [M0droid Dataset](http://m0droid.netai.net/modroid/)
 * [Drebin Dataset](http://user.informatik.uni-goettingen.de/~darp/drebin/)
@@ -19,14 +19,14 @@ Feel free to contribute, add, modify the links and/or add section, or send us an
 * [Android Botnet Dataset](http://www.unb.ca/cic/datasets/android-botnet.html)
 * [Android Adware and General Malware Dataset](http://www.unb.ca/cic/datasets/android-adware.html)
 
-##Virtual Networks
+## Virtual Networks
 * [VPN-nonVPN dataset](http://www.unb.ca/cic/datasets/vpn.html)
 
 
-##TOR Network
+## TOR Network
 * [TOR-nonTOR dataset](Tor-nonTor dataset)
 
-##Network Traffic 
+## Network Traffic 
 * [ADFA-LD - Linux HIDS](https://www.unsw.adfa.edu.au/unsw-canberra-cyber/cybersecurity/ADFA-IDS-Datasets/) 
 * [ADFA-WD - Windows HIDS](https://www.unsw.adfa.edu.au/unsw-canberra-cyber/cybersecurity/ADFA-IDS-Datasets/)
 * [ADFA-WD:SAA - Windows Dataset: Stealth Attacks Addendum](https://www.unsw.adfa.edu.au/unsw-canberra-cyber/cybersecurity/ADFA-IDS-Datasets/)
@@ -51,28 +51,28 @@ Feel free to contribute, add, modify the links and/or add section, or send us an
 * [ISACDC09](http://www.westpoint.edu/crc/SitePages/DataSets.aspx)
 
 
-##Botnet
+## Botnet
 * [ISOT Botnet](https://www.uvic.ca/engineering/ece/isot/datasets/)
 * [Botnet dataset](http://www.unb.ca/cic/datasets/botnet.html)
 
-##SCADA
+## SCADA
 * [4SICS ICS](https://www.netresec.com/?page=PCAP4SICS)
 * [DigitalBond S4x15 ICS Village CTF PCAPs](https://www.netresec.com/?page=DigitalBond_S4)
 * [DEFCON ICS 2003](https://media.defcon.org/DEF CON 23/DEF CON 23 villages/DEF CON 23 ics village/DEF CON 23 ICS Village packet captures.rar )
 * [Anomalies Water System](https://www.sciencedirect.com/science/article/pii/S2352340917303402)
 
-##IoT
+## IoT
 * [Dweet.io IoT device schema](https://eprints.soton.ac.uk/407966/)
 
 
-##Malware
+## Malware
 * [Ether Malware Analysis Dataset](http://ether.gtisc.gatech.edu/malware.html) [link 2](https://www.azsecure-data.org/other-data.html)
 * [CSDMC 2010](http://csmining.org/index.php/malicious-software-datasets-.html) [link2](https://www.azsecure-data.org/other-data.html)
 * [Microsoft Malware Classification Challenge Dataset BIG2015](https://www.kaggle.com/c/malware-classification)
 * [Marco Ramilli Malware Training Set](https://github.com/marcoramilli/MalwareTrainingSets)
 
-##Crypto-Currency
+## Crypto-Currency
 * [Hijack-BTC](https://github.com/nsg-ethz/hijack-btc)
 
-##Web-Chat
+## Web-Chat
 * [QQ Chat Logs](https://www.azsecure-data.org/other-data.html)
