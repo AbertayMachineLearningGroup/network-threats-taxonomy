@@ -39,11 +39,12 @@ If you want to cite the paper please use the following format;
 - Hanan Hindy
 - Dr Xavier Bellekens
 
+
 ## Samples from taxonomy
-- Threats 
+* Threats 
 ![Taxonomy_1](https://github.com/AbertayMachineLearningGroup/network-threats-taxonomy/blob/master/images/Taxonomy_1.PNG)
 ![Taxonomy_2](https://github.com/AbertayMachineLearningGroup/network-threats-taxonomy/blob/master/images/Taxonomy_2.PNG)
 ![Taxonomy_3](https://github.com/AbertayMachineLearningGroup/network-threats-taxonomy/blob/master/images/Taxonomy_3.PNG)
 
-- Tools
+* Tools
 ![Tools](https://github.com/AbertayMachineLearningGroup/network-threats-taxonomy/blob/master/images/Tools.PNG)
