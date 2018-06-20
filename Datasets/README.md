@@ -24,7 +24,7 @@ Feel free to contribute, add, modify the links and/or add section, or send us an
 
 
 ## TOR Network
-* [TOR-nonTOR dataset](Tor-nonTor dataset)
+* [TOR-nonTOR dataset](http://www.unb.ca/cic/datasets/tor.html)
 
 ## Network Traffic 
 * [ADFA-LD - Linux HIDS](https://www.unsw.adfa.edu.au/unsw-canberra-cyber/cybersecurity/ADFA-IDS-Datasets/) 
@@ -58,7 +58,7 @@ Feel free to contribute, add, modify the links and/or add section, or send us an
 ## SCADA
 * [4SICS ICS](https://www.netresec.com/?page=PCAP4SICS)
 * [DigitalBond S4x15 ICS Village CTF PCAPs](https://www.netresec.com/?page=DigitalBond_S4)
-* [DEFCON ICS 2003](https://media.defcon.org/DEF CON 23/DEF CON 23 villages/DEF CON 23 ics village/DEF CON 23 ICS Village packet captures.rar )
+* [DEFCON ICS 2003](https://media.defcon.org/DEFCON23/DEFCON23villages/DEFCON23icsvillage/DEFCON23ICSVillagepacketcaptures.rar)
 * [Anomalies Water System](https://www.sciencedirect.com/science/article/pii/S2352340917303402)
 
 ## IoT
