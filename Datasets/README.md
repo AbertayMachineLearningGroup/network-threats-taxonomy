@@ -1,5 +1,5 @@
 # Datasets
-Machine Learning Intrusion Detection System rely heavily on datasets. This README provides a list of datasets
+Machine Learning Intrusion Detection System rely heavily on datasets. This page provides a list of datasets
 and associated links
 
 ## Contributions
