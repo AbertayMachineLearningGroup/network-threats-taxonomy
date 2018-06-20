@@ -40,7 +40,7 @@ Feel free to contribute, add, modify the links and/or add section, or send us an
 * [VERIS Community Database](https://github.com/vz-risk/VCDB)
 * [ISCXIDS2012](http://www.unb.ca/cic/datasets/ids.html)
 * [CICIDS2017](http://www.unb.ca/cic/datasets/ids-2017.html)
-* [http://www.unb.ca/cic/datasets/nsl.html](NSL-KDD dataset)
+* [NSL-KDDdataset](http://www.unb.ca/cic/datasets/nsl.html)
 * [CIC DoS dataset](http://www.unb.ca/cic/datasets/dos-dataset.html)
 * [KDD99](http://kdd.ics.uci.edu/databases/kddcup99/kddcup99.html)
 * [DARPA98](https://www.ll.mit.edu/ideval/data/)
