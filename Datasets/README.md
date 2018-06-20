@@ -3,7 +3,7 @@ Machine Learning Intrusion Detection System rely heavily on datasets. This page 
 and associated links
 
 ## Contributions
-Feel free to contribute, add, modify the links and/or add section, or send us an email if a link is deprecated.
+Feel free to contribute, add, modify the links as well as add missing sections, or send us an email if a link is deprecated.
 
 
 ## Mobile Application
