@@ -60,6 +60,7 @@ Feel free to contribute, add, modify the links as well as add missing sections, 
 * [DigitalBond S4x15 ICS Village CTF PCAPs](https://www.netresec.com/?page=DigitalBond_S4)
 * [DEFCON ICS 2003](https://media.defcon.org/DEFCON23/DEFCON23villages/DEFCON23icsvillage/DEFCON23ICSVillagepacketcaptures.rar)
 * [Anomalies Water System](https://www.sciencedirect.com/science/article/pii/S2352340917303402)
+* [Kaspersky ICS](https://box.kaspersky.com/d/56ad570fca/?p=/)
 
 ## IoT
 * [Dweet.io IoT device schema](https://eprints.soton.ac.uk/407966/)
