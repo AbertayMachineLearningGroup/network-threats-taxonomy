@@ -42,9 +42,15 @@ If you want to cite the paper please use the following format;
 
 ## Samples from taxonomy
 * Threats 
+
+The threats are organised using the 7 layers of the OSI Models as shown below.
+
 ![Taxonomy_1](https://github.com/AbertayMachineLearningGroup/network-threats-taxonomy/blob/master/images/Taxonomy_1.PNG)
 ![Taxonomy_2](https://github.com/AbertayMachineLearningGroup/network-threats-taxonomy/blob/master/images/Taxonomy_2.PNG)
 ![Taxonomy_3](https://github.com/AbertayMachineLearningGroup/network-threats-taxonomy/blob/master/images/Taxonomy_3.PNG)
 
 * Tools
+
+The Threats are then associated with the tools used to carry the attacks.
+
 ![Tools](https://github.com/AbertayMachineLearningGroup/network-threats-taxonomy/blob/master/images/Tools.PNG)
