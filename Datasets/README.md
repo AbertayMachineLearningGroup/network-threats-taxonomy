@@ -49,6 +49,7 @@ Feel free to contribute, add, modify the links as well as add missing sections, 
 * [MACCDC](https://www.netresec.com/?page=MACCDC)
 * [WRCCDC](https://archive.wrccdc.org/pcaps/)
 * [ISACDC09](http://www.westpoint.edu/crc/SitePages/DataSets.aspx)
+* [Rapid7 OpenData](https://opendata.rapid7.com/)
 
 
 ## Botnet
