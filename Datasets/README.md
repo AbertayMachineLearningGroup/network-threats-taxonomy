@@ -50,11 +50,17 @@ Feel free to contribute, add, modify the links as well as add missing sections, 
 * [WRCCDC](https://archive.wrccdc.org/pcaps/)
 * [ISACDC09](http://www.westpoint.edu/crc/SitePages/DataSets.aspx)
 * [Rapid7 OpenData](https://opendata.rapid7.com/)
-
+* [UNIBS-2009](http://netweb.ing.unibs.it/~ntw/tools/traces/)
+* [Cambridge Inmotion](https://crawdad.org/cambridge/inmotion/20051001/)
+* [MAWI Working Group Traffic](http://mawi.wide.ad.jp/mawi/)
+* [CAIDA 2016](http://www.caida.org/data/passive/passive_2016_dataset.xml)
+* [LBNL/ICSI Enterprise Tracing Repository](https://www.icir.org/enterprise-tracing/download.html)
+* [MERTOSEC](http://projects.laas.fr/METROSEC/)
 
 ## Botnet
 * [ISOT Botnet](https://www.uvic.ca/engineering/ece/isot/datasets/)
 * [Botnet dataset](http://www.unb.ca/cic/datasets/botnet.html)
+* [UCI IoT Botnet Attacks](http://archive.ics.uci.edu/ml/datasets/detection_of_IoT_botnet_attacks_N_BaIoT)
 
 ## SCADA
 * [4SICS ICS](https://www.netresec.com/?page=PCAP4SICS)
