@@ -8,10 +8,12 @@
 	
     \node [block, below = \largeY of H] (4_1) {4.1 Backdoor};
     \node [block, below = \medY of 4_1] (4_2) {4.2 Mis-\\configuration};
-    
-    \node [sectionblock, below left =\medY and -\headerNodeDistance of 4_2] (S5) {5. Human};
+    \node [block, below = \largeY of N] (4_3) {4.3 Eavesdropping};
+    \node [block, below = \medY of 4_2] (4_4) {4.4 User\\Tracking0};
 
-    \node [block, below =\largeY*4 of A] (5_1) {5.1 Masquerade};
+    \node [sectionblock, below left =\medY and -\headerNodeDistance of 4_4] (S5) {5. Human};    
+
+    \node [block, below =\largeY*5.5 of A] (5_1) {5.1 Masquerade};
     
 	\node [block, below =\medY of 5_1] (5_2) {5.2 Phishing};
 	\node [block, below right =\smallY and \shiftX of 5_2] (5_2_1) {5.2.1 Spear\\Phishing};

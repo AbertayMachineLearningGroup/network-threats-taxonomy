@@ -32,7 +32,8 @@
     \node [block, below right =\largeY*5.3 and \shiftX*1.2 of 1_5] (1_5_4) {1.5.4 Spoofing};
     \node [block, below =\smallY of 1_5_3] (1_5_4_1) {1.5.4.1 IP Spoofing};
     \node [block, below =\smallY*4 of 1_5_2] (1_5_4_2) {1.5.4.2 DNS Spoofing};
-    \node [block, below =\largeY*9.3 of D] (1_5_4_3) {1.5.4.3 ARP Spoofing};
+    \node [block, below =\largeY*9.2 of D] (1_5_4_3) {1.5.4.3 ARP Spoofing};
+    \node [block, below =\smallY*0.75 of 1_5_4_3] (1_5_5) {1.5.5 Sybil};
     
     \node [roundedblock, below =\smallY*3 of 1_5_4] (1_6) {1.6 Scanning/\\Enumeration};
     \node [roundedblock, below left=\largeY/1.5 and \shiftX of 1_5_4_1] (1_6_1) {1.6.1 TCP};
@@ -49,7 +50,7 @@
     \node [roundedblock, below right =\smallY*4 and \shiftX of 1_6_2] (1_7) {1.7 MAC Flooding};
 
     \node [block, below =\largeY*7 of 1_6] (1_8) {1.8 VLAN Hooping};
-    \node [block, below =\largeY*8 of 1_5_4_3] (1_8_1) {1.8.1 Switch Spoofing};
+    \node [block, below =\largeY*7.5 of 1_5_5] (1_8_1) {1.8.1 Switch Spoofing};
     \node [block, below =\smallY of 1_8_1] (1_8_2) {1.8.2 Double Tagging};
 	
     \node [roundedblock, below =\largeY*1.2 of 1_7] (1_9) {1.9 Probing};
@@ -71,6 +72,7 @@
     \draw[->] ($(1_5.south)-(\southBorderXDisplacement, 0)$) |- (1_5_2.west) ;
 	\draw[->] ($(1_5.south)-(\southBorderXDisplacement, 0)$) |- (1_5_3.west) ;
 	\draw[->] ($(1_5.south)-(\southBorderXDisplacement, 0)$) |- (1_5_4.west) ;
+    \draw[->] ($(1_5.south)-(\southBorderXDisplacement, 0)$) |- ($(1_5_5.west)-(0, -0.25)$) ;
 	\draw[->] (1_5_4) -- (1_5_4_1);
 	\draw[->] ($(1_5_4.north)$) |- (1_5_4_2.west) ;
 	\draw[->] ($(1_5_4.south)$) |- (1_5_4_3.west) ;
