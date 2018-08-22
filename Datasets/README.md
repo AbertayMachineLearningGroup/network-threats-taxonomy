@@ -61,6 +61,7 @@ Feel free to contribute, add, modify the links as well as add missing sections, 
 * [ISOT Botnet](https://www.uvic.ca/engineering/ece/isot/datasets/)
 * [Botnet dataset](http://www.unb.ca/cic/datasets/botnet.html)
 * [UCI IoT Botnet Attacks](http://archive.ics.uci.edu/ml/datasets/detection_of_IoT_botnet_attacks_N_BaIoT)
+* [CTU-13](https://www.stratosphereips.org/datasets-ctu13/) [1]
 
 ## SCADA
 * [4SICS ICS](https://www.netresec.com/?page=PCAP4SICS)
@@ -84,3 +85,7 @@ Feel free to contribute, add, modify the links as well as add missing sections, 
 
 ## Web-Chat
 * [QQ Chat Logs](https://www.azsecure-data.org/other-data.html)
+
+
+##### Other Contributers:
+ 1. Ivan Letteri
