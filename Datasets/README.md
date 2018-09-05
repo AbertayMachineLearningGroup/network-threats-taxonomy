@@ -79,6 +79,7 @@ Feel free to contribute, add, modify the links as well as add missing sections, 
 * [CSDMC 2010](http://csmining.org/index.php/malicious-software-datasets-.html) [link2](https://www.azsecure-data.org/other-data.html)
 * [Microsoft Malware Classification Challenge Dataset BIG2015](https://www.kaggle.com/c/malware-classification)
 * [Marco Ramilli Malware Training Set](https://github.com/marcoramilli/MalwareTrainingSets)
+* [Contagio Malware Dump](http://contagiodump.blogspot.com/2013/04/collection-of-pcap-files-from-malware.html)
 
 ## Crypto-Currency
 * [Hijack-BTC](https://github.com/nsg-ethz/hijack-btc)
