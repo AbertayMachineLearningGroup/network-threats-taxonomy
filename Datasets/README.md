@@ -87,6 +87,8 @@ Feel free to contribute, add, modify the links as well as add missing sections, 
 ## Web-Chat
 * [QQ Chat Logs](https://www.azsecure-data.org/other-data.html)
 
+## Modelling & Analysis
+* [Unified Host and Network Dataset](https://csr.lanl.gov/data/2017.html)
 
 ##### Other Contributers:
  1. Ivan Letteri
