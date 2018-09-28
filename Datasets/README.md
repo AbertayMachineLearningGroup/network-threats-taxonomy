@@ -58,7 +58,7 @@ Feel free to contribute, add, modify the links as well as add missing sections, 
 * [LBNL/ICSI Enterprise Tracing Repository](https://www.icir.org/enterprise-tracing/download.html)
 * [MERTOSEC](http://projects.laas.fr/METROSEC/)
 * [Sperotto’s (Twente)](https://research.utwente.nl/en/publications/a-labeled-data-set-for-flow-based-intrusion-detection) Flow-based dataset
-* [UNSW-NB15] (https://www.unsw.adfa.edu.au/unsw-canberra-cyber/cybersecurity/ADFA-NB15-Datasets/)
+* [UNSW-NB15](https://www.unsw.adfa.edu.au/unsw-canberra-cyber/cybersecurity/ADFA-NB15-Datasets/)
 
 ## Botnet
 * [ISOT Botnet](https://www.uvic.ca/engineering/ece/isot/datasets/)
