@@ -43,6 +43,7 @@ Feel free to contribute, add, modify the links as well as add missing sections, 
 * [NSL-KDDdataset](http://www.unb.ca/cic/datasets/nsl.html)
 * [CIC DoS dataset](http://www.unb.ca/cic/datasets/dos-dataset.html)
 * [KDD99](http://kdd.ics.uci.edu/databases/kddcup99/kddcup99.html)
+* [GureKddcup](http://www.sc.ehu.es/acwaldap/gureKddcup/)
 * [DARPA98](https://www.ll.mit.edu/ideval/data/)
 * [DARPA99](https://www.ll.mit.edu/ideval/data/)
 * [DARPA2000](https://www.ll.mit.edu/ideval/data/)
@@ -56,12 +57,15 @@ Feel free to contribute, add, modify the links as well as add missing sections, 
 * [CAIDA 2016](http://www.caida.org/data/passive/passive_2016_dataset.xml)
 * [LBNL/ICSI Enterprise Tracing Repository](https://www.icir.org/enterprise-tracing/download.html)
 * [MERTOSEC](http://projects.laas.fr/METROSEC/)
+* [Sperotto’s (Twente)](https://research.utwente.nl/en/publications/a-labeled-data-set-for-flow-based-intrusion-detection) Flow-based dataset
+* [UNSW-NB15] (https://www.unsw.adfa.edu.au/unsw-canberra-cyber/cybersecurity/ADFA-NB15-Datasets/)
 
 ## Botnet
 * [ISOT Botnet](https://www.uvic.ca/engineering/ece/isot/datasets/)
 * [Botnet dataset](http://www.unb.ca/cic/datasets/botnet.html)
 * [UCI IoT Botnet Attacks](http://archive.ics.uci.edu/ml/datasets/detection_of_IoT_botnet_attacks_N_BaIoT)
 * [CTU-13](https://www.stratosphereips.org/datasets-ctu13/) [1]
+* [Kyoto University's Honeypots](http://www.takakura.com/Kyoto_data/)
 
 ## SCADA
 * [4SICS ICS](https://www.netresec.com/?page=PCAP4SICS)
