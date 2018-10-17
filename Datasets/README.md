@@ -18,7 +18,6 @@ Feel free to contribute, add, modify the links as well as add missing sections, 
 * [Android Validation Dataset](http://www.unb.ca/cic/datasets/android-validation.html)
 * [Android Botnet Dataset](http://www.unb.ca/cic/datasets/android-botnet.html)
 * [Android Adware and General Malware Dataset](http://www.unb.ca/cic/datasets/android-adware.html)
-* [AndroZoo](https://androzoo.uni.lu/)
 
 ## Virtual Networks
 * [VPN-nonVPN dataset](http://www.unb.ca/cic/datasets/vpn.html)
