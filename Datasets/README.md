@@ -79,7 +79,8 @@ Feel free to contribute, add, modify the links as well as add missing sections, 
 
 
 ## Malware
-* [Microsoft’s Malware Dataset](https://www.kaggle.com/c/malware-classification) [Paper](https://arxiv.org/abs/1802.10135)
+* [Microsoft’s Malware Dataset](https://www.kaggle.com/c/malware-classification), [Paper](https://arxiv.org/abs/1802.10135)
+* [Eendgame: Ember Malware Dataset](https://www.endgame.com/blog/technical-blog/introducing-ember-open-source-classifier-and-dataset)
 * [Ether Malware Analysis Dataset](http://ether.gtisc.gatech.edu/malware.html) [link 2](https://www.azsecure-data.org/other-data.html)
 * [CSDMC 2010](http://csmining.org/index.php/malicious-software-datasets-.html) [link2](https://www.azsecure-data.org/other-data.html)
 * [Microsoft Malware Classification Challenge Dataset BIG2015](https://www.kaggle.com/c/malware-classification)
