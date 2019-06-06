@@ -9,7 +9,7 @@ Feel free to contribute, add, modify the links as well as add missing sections, 
 ## Mobile Application
 * [Android Malwre Genome](http://www.malgenomeproject.org/)
 * [M0droid Dataset](http://m0droid.netai.net/modroid/)
-* [Drebin Dataset](http://user.informatik.uni-goettingen.de/~darp/drebin/)
+* [Drebin Dataset](https://www.sec.cs.tu-bs.de/~danarp/drebin/)
 * [AndroMalShare](http://sanddroid.xjtu.edu.cn:8080/#home)
 * [Kharon Malware Dataset](http://kharon.gforge.inria.fr/dataset/)
 * [AMD Project](http://amd.arguslab.org/)
@@ -18,6 +18,7 @@ Feel free to contribute, add, modify the links as well as add missing sections, 
 * [Android Validation Dataset](http://www.unb.ca/cic/datasets/android-validation.html)
 * [Android Botnet Dataset](http://www.unb.ca/cic/datasets/android-botnet.html)
 * [Android Adware and General Malware Dataset](http://www.unb.ca/cic/datasets/android-adware.html)
+* [Contagio](http://contagiominidump.blogspot.com/)
 
 ## Virtual Networks
 * [VPN-nonVPN dataset](http://www.unb.ca/cic/datasets/vpn.html)
