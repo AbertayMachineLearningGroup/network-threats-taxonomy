@@ -80,8 +80,7 @@
     \node [block, below = \smallY of b5] (b6) {Ngrep};
     \node [block, below = \smallY of b6] (b7) {Ettercap};
     \node [block, below = \smallY of b7] (b8) {Dsniff};
-    \node [block, below = \smallY of b8] (b8_1) {Kismet};    
-    \node [block, below = \smallY of b8_1] (b9) {Cain and Abel};
+    \node [block, below = \smallY of b8] (b9) {Cain and Abel};
     \node [block, below = \smallY of b9] (b10) {Aimsniff};
     \node [block, below = \smallY of b10] (b11) {Tcptrace};
     \node [block, below = \smallY of b11] (b12) {Tcptrack};
@@ -126,22 +125,22 @@
     \node [block, below = \smallY of b50] (b51) {Arping};
 
 %%%%%%%%%%%%%%%%%%%%% Attacks %%%%%%%%%%%%%%%%%%%%%
-    \node [headerblock, right = \largeX/4 of a1, minimum width = 10cm] (attacks) {\textbf{Attacks}};
+    \node [headerblock, right = \largeX/4 of a1, minimum width = 10cm] (attacks) {\textbf{Attack Tools}};
     \node [block, below left = \smallY*4 and \smallY*-10 of attacks] (dos) {DoS\\DDoS};  
     \node [block, below right = \smallY*10 and \smallY*-30 of attacks] (info) {Information\\Gathering};
-    \node [block, below right = \smallY*138 and \smallY*-30 of attacks] (remote) {Remote access Trojan};
-    \node [block, below right = \smallY*149 and \smallY*-30 of attacks] (sending) {Sending Trojan};
-    \node [block, below right = \smallY*158 and \smallY*-30 of attacks] (destructive) {Destructive Trojan};
-    \node [block, block, below right = \smallY*168 and \smallY*-30 of attacks] (proxy) {Proxy Trojan};
-    \node [block, block, below right = \smallY*178 and \smallY*-30 of attacks] (ftp) {FTP Trojan};
-    \node [block, block, below right = \smallY*190 and \smallY*-30 of attacks] (disable) {Security Software\\Disable Trojan};
+    \node [block, below right = \smallY*135 and \smallY*-30 of attacks] (remote) {Remote access Trojan};
+    \node [block, below right = \smallY*145 and \smallY*-30 of attacks] (sending) {Sending Trojan};
+    \node [block, below right = \smallY*155 and \smallY*-30 of attacks] (destructive) {Destructive Trojan};
+    \node [block, block, below right = \smallY*165 and \smallY*-30 of attacks] (proxy) {Proxy Trojan};
+    \node [block, block, below right = \smallY*175 and \smallY*-30 of attacks] (ftp) {FTP Trojan};
+    \node [block, block, below right = \smallY*185 and \smallY*-30 of attacks] (disable) {Security Software\\Disable Trojan};
     \node [block, block, below left = \smallY*155 and \smallY*-30 of attacks] (forging) {Packet Forging};
-    \node [block, block, below right = \smallY*224 and \smallY*-30 of attacks] (fingerprinting) {Fingerprinting};
-    \node [block, block, below right = \smallY*248 and \smallY*-20 of attacks] (u2r) {U2R};
+    \node [block, block, below right = \smallY*220 and \smallY*-30 of attacks] (fingerprinting) {Fingerprinting};
+    \node [block, block, below right = \smallY*245 and \smallY*-20 of attacks] (u2r) {U2R};
     \node [block, block, below left = \smallY*245 and \smallY*-10 of attacks] (impersonate) {Impersonate};
-    \node [block, block, below right = \smallY*260 and \smallY*-30 of attacks] (r2l) {R2L};
+    \node [block, block, below right = \smallY*256 and \smallY*-30 of attacks] (r2l) {R2L};
     \node [block, block, below left = \smallY*275 and \smallY*-30 of attacks] (scanning) {Scanning};
-    \node [block, block, below right = \smallY*300 and \smallY*-10 of attacks] (misc) {Misc};
+    \node [block, block, below right = \smallY*295 and \smallY*-10 of attacks] (misc) {Misc};
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%% Links %%%%%%%%%%%%%%%%%%%%%
@@ -201,7 +200,6 @@
     \draw[->] (info.east) -- ($(info.east) - (-1.5, 0)$)  |- (b6.west); 
     \draw[->] (info.east) -- ($(info.east) - (-1.5, 0)$)  |- (b7.west); 
     \draw[->] (info.east) -- ($(info.east) - (-1.5, 0)$)  |- (b8.west); 
-    \draw[->] (info.east) -- ($(info.east) - (-1.5, 0)$)  |- (b8_1.west); 
     \draw[->] (info.east) -- ($(info.east) - (-1.5, 0)$)  |- (b9.west); 
     \draw[->] (info.east) -- ($(info.east) - (-1.5, 0)$)  |- (b10.west); 
     \draw[->] (info.east) -- ($(info.east) - (-1.5, 0)$)  |- (b11.west); 
