@@ -4,7 +4,7 @@
 The taxonomy classifies each network threat according to:
 - Its Source (i.e.  Networking,  Host, Software,  Hardware,  Human)
 - OSI Layer
-- Active / Passiv
+- Active / Passive
 
 
 ## Taxonomy Samples

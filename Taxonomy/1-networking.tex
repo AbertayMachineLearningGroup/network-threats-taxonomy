@@ -4,39 +4,44 @@
     \input{0.2-vertical-lines}
 
 %%%%%%%%%%%%%%%%%%%%% Nodes %%%%%%%%%%%%%%%%%%%%%
-	\node [sectionblock, below right =\smallY and -\headerNodeDistance of None] (S1) {1.Networking};
+	\node [sectionblock, below right =\largeY and -\headerNodeDistance of None] (S1) {1.Networking};
     
-    \node [block, below left=\largeY and \shiftX of N] (1_1) {1.1 DoS / DDoS};
+    \node [block, below left=\largeY and \shiftX of TCP] (1_1) {1.1 DoS / DDoS};
 	\node [block, below right=\smallY and \shiftX of 1_1] (1_1_1) {1.1.1 Flood};
-    \node [block, below right=\smallY and \shiftX of 1_1_1] (1_1_1_1) {1.1.1.1 Smurf};
-    \node [block, below =\smallY of 1_1_1_1] (1_1_1_2) {1.1.1.2 Buffer\\Overflow};
-    \node [block, below =\smallY of 1_1_1_2] (1_1_1_3) {1.1.1.3 SYN};
-    \node [block, below left=\smallY and \shiftX*1.5 of 1_1_1_3] (1_1_2) {1.1.2 Amplification};
-    \node [block, below =\smallY of 1_1_2] (1_1_3) {1.1.3 Protocol Exploit};
-    \node [block, below right=\smallY and \shiftX*1.7 of 1_1_3] (1_1_3_1) {1.1.3.1 Teardrop};
+    \node [block, below =\largeY*1.7 of TCPT] (1_1_1_1) {1.1.1.1 Smurf};
+    \node [block, below =\largeY*1.7+\smallY+0.5cm of TCPI] (1_1_1_2) {1.1.1.2 ICMP Flood};
+    \node [block, below =\largeY*2.6 of TCPT] (1_1_1_3) {1.1.1.3 UDP Flood};
+    \node [block, below =\smallY of 1_1_1_3] (1_1_1_4) {1.1.1.4 SYN Flood};
+    \node [block, below =\largeY*4.3 of A] (1_1_1_5) {1.1.1.5 HTTP/ Flood};
+    \node [block, below =\largeY*3.7 of P] (1_1_1_6) {1.1.1.6 SSL};
+    \node [block, below =\smallY of 1_1_1_5] (1_1_2) {1.1.2 Amplification};
+    \node [block, below =\largeY*2.5 of 1_1_1] (1_1_3) {1.1.3 Protocol Exploit};
+    \node [block, below =\largeY*1.9 of 1_1_1_2] (1_1_3_1) {1.1.3.1 Teardrop};
     \node [block, below left=\smallY and \shiftX*1.2 of 1_1_3_1] (1_1_4) {1.1.4 Malformed\\Packets};
     \node [block, below right=\smallY and \shiftX of 1_1_4] (1_1_4_1) {1.1.4.1 Ping of\\Death};
-
-   	\node [block, below =\largeY*1.2 of T] (1_2) {1.2 Packet Forging};
-
-	\node [block, below =\largeY*1.4 of None] (1_3) {1.3 Man-in-the-Middle};
-	\node [roundedblock, below =\largeY*1.4 of P] (1_3_1) {1.3.1 Monitor};
+    \node [block, below =\largeY*1.1 of 1_1_2] (1_1_5) {1.1.5 Buffer\\Overflow};
+   	
+   	
+   	\node [block, below =\largeY*3.5 of 1_1_1_4] (1_2) {1.2 Packet Forging};
+	
+	\node [block, below =\largeY*1.4 of 1_1_3] (1_3) {1.3 Man-in-the-Middle};
+    \node [roundedblock, below =\largeY*7.3 of P] (1_3_1) {1.3.1 Monitor};
     \node [block, below =\smallY of 1_3_1] (1_3_2) {1.3.2 Replay};
-    
-	\node [semiroundedblock, below =\smallY*1.5 of 1_3_2] (1_4) {1.4 Man-in-the-browser};
+	\node [semiroundedblock, below =\medY*2 of 1_1_5] (1_4) {1.4 Man-in-the-browser};
 
 	\node [block, below =\largeY*1.2 of 1_3] (1_5) {1.5 Impersonate};
-	\node [block, below =\largeY*2.9 of A] (1_5_1) {1.5.1 Unauthorized\\Access};
-    \node [block, below =\smallY of 1_5_1] (1_5_2) {1.5.2 Cloning};
-    \node [block, below left =\smallY*1.5 and \shiftX*1.4 of 1_1_4_1] (1_5_3) {1.5.3 Rogue Access Point};
-    \node [block, below right =\largeY*5.3 and \shiftX*1.2 of 1_5] (1_5_4) {1.5.4 Spoofing};
-    \node [block, below =\smallY of 1_5_3] (1_5_4_1) {1.5.4.1 IP Spoofing};
-    \node [block, below =\smallY*4 of 1_5_2] (1_5_4_2) {1.5.4.2 DNS Spoofing};
-    \node [block, below =\largeY*9.2 of D] (1_5_4_3) {1.5.4.3 ARP Spoofing};
-    \node [block, below =\smallY*0.75 of 1_5_4_3] (1_5_5) {1.5.5 Sybil};
+    \node [block, below =\largeY*1.5 of 1_1_5] (1_5_1) {1.5.1 Unauthorized\\Access};
+    \node [block, below =\smallY of 1_5_1] (1_5_2) {1.5.2 Cloning}; 
     
-    \node [roundedblock, below =\smallY*3 of 1_5_4] (1_6) {1.6 Scanning/\\Enumeration};
-    \node [roundedblock, below left=\largeY/1.5 and \shiftX of 1_5_4_1] (1_6_1) {1.6.1 TCP};
+    \node [block, below left =\largeY*2.3 and \shiftX*1.8 of 1_1_4_1] (1_5_3) {1.5.3 Rogue Access Point};
+    
+    \node [block, below right =\largeY*1.23 and \shiftX*1.2 of 1_5] (1_5_4) {1.5.4 Spoofing};
+    \node [block, below =\smallY of 1_5_3] (1_5_4_1) {1.5.4.1 IP Spoofing};
+    \node [block, below =\smallY*4.5 of 1_5_2] (1_5_4_2) {1.5.4.2 DNS Spoofing};
+    \node [block, below =\largeY*11.3 of D] (1_5_4_3) {1.5.4.3 ARP Spoofing};
+    
+    \node [roundedblock, below =\smallY*4 of 1_5_4] (1_6) {1.6 Scanning/\\Enumeration};
+    \node [roundedblock, below left=\largeY/1.2 and \shiftX of 1_5_4_1] (1_6_1) {1.6.1 TCP};
 	\node [roundedblock, below right=\smallY and \shiftX*0.7 of 1_6_1] (1_6_1_1) {1.6.1.1 Connect };
 	\node [roundedblock, below =\smallY of 1_6_1_1] (1_6_1_2) {1.6.1.2 SYN };
 	\node [roundedblock, below =\smallY of 1_6_1_2] (1_6_1_3) {1.6.1.3 FIN };
@@ -45,37 +50,48 @@
 	\node [roundedblock, below =\smallY of 1_6_1_5] (1_6_1_6) {1.6.1.6 ACK};
     \node [roundedblock, below =\smallY of 1_6_1_6] (1_6_1_7) {1.6.1.7\\Windows };
 	\node [roundedblock, below =\smallY of 1_6_1_7] (1_6_1_8) {1.6.1.8 RPC };
-	\node [roundedblock, below left =\medY and \shiftX*0.6 of 1_6_1_8] (1_6_2) {1.6.2 UDP};
-	
-    \node [roundedblock, below right =\smallY*4 and \shiftX of 1_6_2] (1_7) {1.7 MAC Flooding};
+	\node [roundedblock, below left =\smallY and \shiftX*0.6 of 1_6_1_8] (1_6_2) {1.6.2 UDP};
 
-    \node [block, below =\largeY*7 of 1_6] (1_8) {1.8 VLAN Hooping};
-    \node [block, below =\largeY*7.5 of 1_5_5] (1_8_1) {1.8.1 Switch Spoofing};
+    \node [roundedblock, below =\largeY*6.5 of 1_5_4_3] (1_7) {1.7 MAC Flooding};
+
+    \node [block, below =\largeY*6.3 of 1_6] (1_8) {1.8 VLAN Hooping};
+    \node [block, below =\largeY*7.3 of 1_5_4_3] (1_8_1) {1.8.1 Switch Spoofing};
     \node [block, below =\smallY of 1_8_1] (1_8_2) {1.8.2 Double Tagging};
 	
-    \node [roundedblock, below =\largeY*1.2 of 1_7] (1_9) {1.9 Probing};
-    \node [semiroundedblock, below =\largeY*18 of 1_2] (1_10) {1.10 nonTor Traffic};
+   \node [roundedblock, below right=\largeY*1.7 and \shiftX*0.6 of 1_6_2] (1_9) {1.9 Probing};
+   \node [semiroundedblock, below =\largeY*11.8 of 1_2] (1_10) {1.10 nonTor Traffic};
+
+    \node [semiroundedblock, below =\largeY*11.8 of 1_3_2, minimum width=7.5cm] (1_11) {1.11 Heartbleed};
 
 %%%%%%%%%%%%%%%%%%%%% Links %%%%%%%%%%%%%%%%%%%%%
+
 	\draw[->] ($(1_1.south)-(\southXDisplacement, 0)$) |- (1_1_1.west) ;
-    \draw[->] ($(1_1_1.south)-(\southXDisplacement, 0)$) |- (1_1_1_1.west) ;
-    \draw[->] ($(1_1_1.south)-(\southXDisplacement, 0)$) |- (1_1_1_2.west) ;
-    \draw[->] ($(1_1_1.south)-(\southXDisplacement, 0)$) |- (1_1_1_3.west) ;
-   	\draw[->] ($(1_1.south)-(\southXDisplacement, 0)$) |- (1_1_2.west) ;
-    \draw[->] ($(1_1.south)-(\southXDisplacement, 0)$) |- (1_1_3.west) ;
-    \draw[->] ($(1_1_3.south)-(\southXDisplacement*1.5, 0)$) |- (1_1_3_1.west) ;
-    \draw[->] ($(1_1.south)-(\southXDisplacement, 0)$) |- (1_1_4.west) ;
+    \draw[->] ($(1_1_1.east)$) -- (1_1_1_1.west) ;
+    \draw[->] ($(1_1_1.east)+(\southXDisplacement, 0)$) |- (1_1_1_2.west) ;
+    \draw[->] ($(1_1_1.east)+(\southXDisplacement, 0)$) |- (1_1_1_3.west) ;
+    \draw[->] ($(1_1_1.east)+(\southXDisplacement, 0)$) |- (1_1_1_4.west) ;
+    \draw[->] ($(1_1_1.east)+(\southXDisplacement, 0)$) |- (1_1_1_5.west) ;
+    \draw[->] ($(1_1_1.east)+(\southXDisplacement, 0)$) |- (1_1_1_6.west) ;
+    
+   	\draw[->] ($(1_1.south)-(\southXDisplacement*1.4, 0)$) |- (1_1_2.west) ;
+    \draw[->] ($(1_1.south)-(\southXDisplacement*1.4, 0)$) |- (1_1_3.west) ;
+    \draw[->] ($(1_1_3.east)$) -- (1_1_3_1.west) ;
+
+    \draw[->] ($(1_1.south)-(\southXDisplacement*1.4, 0)$) |- (1_1_4.west) ;
     \draw[->] ($(1_1_4.south)-(\southXDisplacement, 0)$) |- (1_1_4_1.west) ;
+    \draw[->] ($(1_1.south)-(\southXDisplacement*1.4, 0)$) |- (1_1_5.west) ;
+    
     \draw[->] (1_3) -- (1_3_1);
     \draw[->] (1_3) |- (1_3_2);
-	\draw[->] (1_5) -- (1_5_1);
+    \draw[->] (1_5) -- (1_5_1);
     \draw[->] ($(1_5.south)-(\southBorderXDisplacement, 0)$) |- (1_5_2.west) ;
 	\draw[->] ($(1_5.south)-(\southBorderXDisplacement, 0)$) |- (1_5_3.west) ;
-	\draw[->] ($(1_5.south)-(\southBorderXDisplacement, 0)$) |- (1_5_4.west) ;
-    \draw[->] ($(1_5.south)-(\southBorderXDisplacement, 0)$) |- ($(1_5_5.west)-(0, -0.25)$) ;
-	\draw[->] (1_5_4) -- (1_5_4_1);
-	\draw[->] ($(1_5_4.north)$) |- (1_5_4_2.west) ;
+
+    \draw[->] ($(1_5.south)-(\southBorderXDisplacement, 0)$) |- (1_5_4.west) ;
+	\draw[->] ($(1_5_4.east)$) -- (1_5_4_1);
+	\draw[->] ($(1_5_4.south)$) |- (1_5_4_2.west) ;
 	\draw[->] ($(1_5_4.south)$) |- (1_5_4_3.west) ;
+	
 	\draw[->] (1_6) -- (1_6_1);
 	\draw[->] ($(1_6_1.south)-(\southBorderXDisplacement, 0)$) |- (1_6_1_1.west) ;
 	\draw[->] ($(1_6_1.south)-(\southBorderXDisplacement, 0)$) |- (1_6_1_2.west) ;
@@ -86,7 +102,10 @@
 	\draw[->] ($(1_6_1.south)-(\southBorderXDisplacement, 0)$) |- (1_6_1_7.west) ;
 	\draw[->] ($(1_6_1.south)-(\southBorderXDisplacement, 0)$) |- (1_6_1_8.west) ;
 	\draw[->] ($(1_6.south)$) |- (1_6_2.west) ;
+
 	\draw[->] (1_8) -- (1_8_1);
-  	\draw[->] ($(1_8.south)$) |- (1_8_2.west) ;
-    
+ 	\draw[->] ($(1_8.south)$) |- (1_8_2.west) ;
+
+ 	\draw[->] ($(1_3.south)-(\southBorderXDisplacement*1.5, 0)$) |- ($(1_5_4_1.west)-(0,0.1)$) ;
+    \draw[->] ($(1_3.south)-(\southBorderXDisplacement*1.5, 0)$) |- ($(1_5_4_3.west)-(0,0.2)$) ;
 \end{tikzpicture}

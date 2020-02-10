@@ -4,16 +4,22 @@
     \input{0.2-vertical-lines}
 
 %%%%%%%%%%%%%%%%%%%%% Nodes %%%%%%%%%%%%%%%%%%%%%
-	\node [sectionblock, below right =\smallY and -\headerNodeDistance of None] (S4) {4. Physical};
+    \node [block, below = \largeY of A] (3_3) {3.3 Fingerprinting};
+    
+    \node [block, below =\smallY*1.5 of 3_3] (3_4) {3.4 Misconfiguration};
+
+    \node [block, below =\largeY*1.8 of P] (3_5) {3.5 Fake Certificates};
+
+    \node [block, below =\smallY*1.7 of 3_4] (3_6) {3.6 Drive-by Download};
+    
+	\node [sectionblock, below right =\smallY*15 and -\headerNodeDistance of TCP] (S4) {4. Physical};
 	
-    \node [block, below = \largeY of H] (4_1) {4.1 Backdoor};
+    \node [block, below = \largeY*4.2 of H] (4_1) {4.1 Backdoor};
     \node [block, below = \medY of 4_1] (4_2) {4.2 Mis-\\configuration};
-    \node [block, below = \largeY of N] (4_3) {4.3 Eavesdropping};
-    \node [block, below = \medY of 4_2] (4_4) {4.4 User\\Tracking0};
+    
+    \node [sectionblock, below left =\medY and -\headerNodeDistance of 4_2] (S5) {5. Human};
 
-    \node [sectionblock, below left =\medY and -\headerNodeDistance of 4_4] (S5) {5. Human};    
-
-    \node [block, below =\largeY*5.5 of A] (5_1) {5.1 Masquerade};
+    \node [block, below =\largeY*7.2 of A] (5_1) {5.1 Masquerade};
     
 	\node [block, below =\medY of 5_1] (5_2) {5.2 Phishing};
 	\node [block, below right =\smallY and \shiftX of 5_2] (5_2_1) {5.2.1 Spear\\Phishing};
@@ -24,14 +30,20 @@
 	
 	\node [block, below =\medY of 5_4] (5_5) {5.5 Repudiation};
    
-	\node [block, below =\largeY*8 of S] (5_6) {5.6 Session Hijacking};
+	\node [block, below =\largeY*12 of S] (5_6) {5.6 Session Hijacking};
 	
-    \node [block, below =\largeY*9 of H] (5_7) {5.7 Physical Damage};
+    \node [block, below =\largeY*12.5 of H] (5_7) {5.7 Physical Damage};
 
 	\node [block, below =\largeY of 5_5] (5_8) {5.8 Fraud};
 
+    \node [semiroundedblock, below =\largeY*13.3 of TCP] (5_9) {5.9 Brute force};
+    
+    \node [semiroundedblock, below =\medY*1.5 of 5_8] (5_9_1) {5.9.1 SSH};
+    \node [semiroundedblock, below =\smallY of 5_9_1] (5_9_2) {5.9.2 FTP};
 %%%%%%%%%%%%%%%%%%%%% Links %%%%%%%%%%%%%%%%%%%%%
 	\draw[->] ($(5_2.south)-(\southXDisplacement, 0)$) |- (5_2_1.west);
 
+	\draw[->] (5_9.east) |- (5_9_1.west);
+	\draw[->] (5_9.east) |- (5_9_2.west);
 
 \end{tikzpicture}

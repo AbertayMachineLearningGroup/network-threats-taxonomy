@@ -6,3 +6,9 @@
 \node [headerblock, right =\headerNodeDistance  of T] (N) {Network};
 \node [headerblock, right =\headerNodeDistance  of N] (D) {Data Link};
 \node [headerblock, right =\headerNodeDistance  of D] (H) {Physical};
+
+\node [headerblock, below =\smallY of None] (TCP) {TCP/IP Layer};
+\node [headerblock, minimum width=12.3cm, right =\headerNodeDistance of TCP] (TCPA) {Application};
+\node [headerblock, below =\smallY  of T] (TCPT) {Transport};
+\node [headerblock, below =\smallY  of N] (TCPI) {Internet};
+\node [headerblock, minimum width=7.5cm, right =\headerNodeDistance of TCPI] (TCPP) {Network Access \ \ };

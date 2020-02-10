@@ -4,10 +4,10 @@
     \input{0.2-vertical-lines}
 
 %%%%%%%%%%%%%%%%%%%%% Nodes %%%%%%%%%%%%%%%%%%%%%
-	\node [sectionblock, below right =\smallY and -\headerNodeDistance of None] (S2) {2. Host};
+	\node [sectionblock, below right =\smallY and -\headerNodeDistance of TCP] (S2) {2. Host};
 	
-    \node [block, below = \largeY of None] (2_1) {2.1 Malware};
-    \node [block, below left=\largeY and \shiftX of A] (2_1_1) {2.1.1 Trojans};
+    \node [block, below = \largeY of TCP] (2_1) {2.1 Malware};
+    \node [block, below left=\largeY*1.8 and \shiftX of A] (2_1_1) {2.1.1 Trojans};
 	\node [block, below right=\smallY and \shiftX*0.8 of 2_1_1] (2_1_1_1) {2.1.1.1 Remote\\Access};
 	\node [block, below =\smallY of 2_1_1_1] (2_1_1_2) {2.1.1.2 Sending};
 	\node [block, below =\smallY of 2_1_1_2] (2_1_1_3) {2.1.1.3 Destructive};
@@ -16,7 +16,7 @@
 	\node [block, below =\smallY of 2_1_1_5] (2_1_1_6) {2.1.1.6 Security\\Software Disable};
 	\node [block, below =\smallY of 2_1_1_6] (2_1_1_7) {2.1.1.7 DoS};
     
-	\node [block, below left =\medY and \shiftX*0.8 of 2_1_1_7] (2_1_2) {2.1.2 Worm};
+	\node [block, below left =\medY*0.5 and \shiftX*0.8 of 2_1_1_7] (2_1_2) {2.1.2 Worm};
     
 	\node [block, below =\smallY of 2_1_2] (2_1_3) {2.1.3 Virus};
     
@@ -25,22 +25,25 @@
 	\node [roundedblock, below =\smallY of 2_1_4] (2_1_5) {2.1.5 Spyware};
     
 	\node [block, below =\smallY and of 2_1_5] (2_1_6) {2.1.6 Ransomware};
+	
+    \node [semiroundedblock, below =\smallY and of 2_1_6] (2_1_7) {2.1.7 Camouflage};
+    \node [semiroundedblock, below right =\smallY and \shiftX*1.2 of 2_1_7] (2_1_7_1) {2.1.7.1 Self-mutating};
+    
+   \node [semiroundedblock, below=\smallY of 2_1_7_1] (2_2) {2.2 Fuzzers};
+    
+    
+	\node [sectionblock, below right =\smallY*64 and -\headerNodeDistance of 2_1] (S3) {3. Software};
 
-
-	\node [sectionblock, below right =\smallY*51 and -\headerNodeDistance of 2_1] (S3) {3. Software};
-
-	\node [roundedblock, below =\largeY*1.2 of 2_1_6] (3_1) {3.1 Information\\Gathering};
+	\node [roundedblock, below =\largeY*3.5 of 2_1_6] (3_1) {3.1 Information\\Gathering};
 	\node [block, below left =\medY and \shiftX*1.5 of 3_1] (3_2) {3.2 Code-Injection };
 	\node [semiroundedblock, below right =\smallY and \shiftX*1.4 of 3_2] (3_2_1) {3.2.1 SQL-Injection};
 	\node [semiroundedblock, below =\smallY of 3_2_1] (3_2_2) {3.2.2 Cross Site\\Scripting};
 	\node [semiroundedblock, below right =\smallY and \shiftX*1.2 of 3_2_2] (3_2_2_1) {3.2.2.1 Persistent};
 	\node [semiroundedblock, below =\smallY of 3_2_2_1] (3_2_2_2) {3.2.2.2 Reflected};
     \node [semiroundedblock, below =\smallY of 3_2_2_2] (3_2_2_3) {3.2.2.3 DOM-\\Based};
-    
-    \node [block, below left =\medY and \shiftX*1.2 of 3_2_2_3] (3_3) {3.3 Fingerprinting};
+	\node [semiroundedblock, below left =\medY*0.5 and \shiftX*0.8 of 3_2_2_3] (3_2_3) {3.2.3 Shellcode};
 
-    \node [block, below =\largeY*18 of P] (3_4) {3.4 Fake Certificates};
-	\node [semiroundedblock, below =\medY of 3_3] (3_5) {3.5 Cross-Site\\Request Forgery};
+
 
 %%%%%%%%%%%%%%%%%%%%% Links %%%%%%%%%%%%%%%%%%%%%
     \draw[->] (2_1) -- (2_1_1);
@@ -56,10 +59,14 @@
     \draw[->] ($(2_1.south)$) |- (2_1_4.west);
     \draw[->] ($(2_1.south)$) |- (2_1_5.west);
     \draw[->] ($(2_1.south)$) |- (2_1_6.west);
+    \draw[->] ($(2_1.south)$) |- (2_1_7.west);
+    \draw[->] ($(2_1_7.south)-(\southXDisplacement*1.3, 0)$) |- (2_1_7_1.west);
     \draw[->] ($(3_2.south)-(\southBorderXDisplacement, 0)$) |- (3_2_1.west);
     \draw[->] ($(3_2.south)-(\southBorderXDisplacement, 0)$) |- (3_2_2.west);
     \draw[->] ($(3_2_2.south)-(\southBorderXDisplacement, 0)$) |- (3_2_2_1.west);
     \draw[->] ($(3_2_2.south)-(\southBorderXDisplacement, 0)$) |- (3_2_2_2.west);
     \draw[->] ($(3_2_2.south)-(\southBorderXDisplacement, 0)$) |- (3_2_2_3.west);
+    \draw[->] ($(3_2.south)-(\southBorderXDisplacement, 0)$) |- (3_2_3.west);
+
 
 \end{tikzpicture}
