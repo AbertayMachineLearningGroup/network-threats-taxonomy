@@ -17,7 +17,7 @@ The taxonomy classifies each network threat according to:
 Ensure that the latex source compiles correctly 
 
 ## Manuscript & Citations
-The final version of our manuscript is published in IEEE Access Jounral. The paper "A Taxonomy of Network Threats and the Effect of Current Datasets on Intrusion Detection Systems" can be found [here](https://ieeexplore.ieee.org/document/9108270).
+The final version of our manuscript is published in IEEE Access Jounral. The paper *"A Taxonomy of Network Threats and the Effect of Current Datasets on Intrusion Detection Systems"* can be found [here](https://ieeexplore.ieee.org/document/9108270).
 
 We have released a pre-print of our article on Arxiv, it includes the original taxonomies in a paper called *"A Taxonomy and Survey of Intrusion Detection System Design Techniques, Network Threats and Datasets"*. The paper can be found [here](https://arxiv.org/abs/1806.03517v1).
 
